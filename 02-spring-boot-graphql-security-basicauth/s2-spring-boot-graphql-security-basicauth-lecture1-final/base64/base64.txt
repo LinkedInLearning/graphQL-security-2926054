@@ -1,0 +1,13 @@
+Header for user user:user2021!
+
+{
+	"Authorization": "Basic dXNlcjp1c2VyMjAyMSE="
+}
+
+
+Header for user admin:admin2021!
+
+{
+	"Authorization": "Basic YWRtaW46YWRtaW4yMDIxIQ=="
+}
+

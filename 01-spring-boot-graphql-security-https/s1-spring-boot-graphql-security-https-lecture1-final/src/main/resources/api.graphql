@@ -1,0 +1,82 @@
+scalar Date
+
+schema {
+	query: Query
+	mutation: Mutation
+	subscription: Subscription
+}
+
+type Query { 
+	routes(page: Int = 0, size: Int = 1): [Route]
+	route(flightNumber: String! @Size( min : 6, max : 6 )): Route
+}
+
+type Mutation {
+	createRoute(flightNumber: String!): Route
+	deleteRoute(id: ID!): Boolean
+	updateRoute(id: ID!, departure: String! ): Route
+	updateRouteWithRouteInput(id: ID!, routeInput: RouteInput) : Route
+}
+
+type Subscription {
+    registerRouteCreated: Route 
+}
+
+input RouteInput {
+	departure: String
+	destination: String
+}
+
+# Route documentation First Line 
+# Route documentation Second Line
+type Route {
+    # id documentation 
+	id: ID!
+	flightNumber: String! 
+	departure: String 
+	destination: String
+	isDisabled: Boolean
+	flights: [Flight!]
+	route: Route 
+}
+
+type Flight {
+	id: ID!
+	price: Float!
+	route: Route!
+	discount: Float!
+	date: Date!
+	employees: [Employee!]
+}
+
+interface Employee {
+	id: ID!
+	staffNumber: String!
+	lastName: String! 
+	firstName: String! 
+	role: EmployeRole!
+}
+
+type Pilot implements Employee {
+	id: ID!
+	staffNumber: String!
+	lastName: String! 
+	firstName: String! 
+	role: EmployeRole!
+	certificateNumber: String 
+}
+
+type Attendant implements Employee {
+	id: ID!
+	staffNumber: String!
+	lastName: String! 
+	firstName: String! 
+	role: EmployeRole!
+	rank: Int 
+}
+
+enum EmployeRole {
+	PILOT
+	ATTENDANT
+}
+

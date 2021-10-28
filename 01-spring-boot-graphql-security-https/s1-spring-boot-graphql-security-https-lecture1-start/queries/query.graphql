@@ -1,0 +1,16 @@
+query route {
+  routes(page:0, size:3) {
+    id
+    flightNumber
+    departure
+    destination
+    flights {
+      id
+      price
+      date
+      route {
+        id
+      }
+    }
+  }
+}
