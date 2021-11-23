@@ -21,11 +21,8 @@ Die Git-Dateien sind passend zu den Videos im Kurs strukturiert und finden Sie √
 
 ### Autor
 
-**[Name hier eintragen]**
+**Michael Sch√§fer**
 
-_[Berufsbezeichnung hier eintragen]_
+_Entwickler, Principal Consultant_
 
-Sehen Sie sich andere Kurse des Autors auf <<<<Link aktualisieren>>>> [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors?u=104) an.
-
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/michael-schafer?u=104) an.
