@@ -4,7 +4,7 @@ Dies ist das Repository für den **LinkedIn Learning** Kurs [COURSENAME]. Den ge
 
 [![COURSENAME](COURSEIMAGE)](LICOURSEURL)![Building a GraphQL Project with React.js][lil-thumbnail-url] 
 
-[COURSEDESCRIPTION]
+Der Kurs richtet sich an erfahrene Softwarearchitekt:innen und Entwickler:innen und erklärt, wie Sie GraphQL-Web-APIs gegen unberechtigte Zugriffe und bösartige Angriffe schützen können. Ihr Trainer Michael Schäfer erläutert ausführlich die grundlegenden Sicherheitskonzepte wie HTTPS, Authentifizierung und Autorisierung mit Basic Auth und OAuth2/JWT, CORS und DDOS im Kontext von GraphQL-APIs und zeigt die Implementierung mit Spring Boot.
 
 ## Anleitung
 
@@ -26,3 +26,8 @@ Die Git-Dateien sind passend zu den Videos im Kurs strukturiert und finden Sie �
 _Entwickler, Principal Consultant_
 
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/michael-schafer?u=104) an.
+
+[0]: # (Replace these placeholder URLs with actual course URLs)
+
+[lil-course-url]: https://www.linkedin.com/learning/graphql-security/
+[lil-thumbnail-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQHAlxExnej97A/learning-public-crop_675_1200/0/1646217717798?e=1646737200&v=beta&t=GolqCyFa_l5cdDPuxgmDlkGLjRi5u5TTiSUAQr_9hSc
