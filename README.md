@@ -1,8 +1,8 @@
 # GraphQL Security
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs [COURSENAME]. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs [GraphQL Security]. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-[![COURSENAME](COURSEIMAGE)](LICOURSEURL)![Building a GraphQL Project with React.js][lil-thumbnail-url] 
+[![GraphQL Security](COURSEIMAGE)](LICOURSEURL)![Building a GraphQL Project with React.js][lil-thumbnail-url] 
 
 Der Kurs richtet sich an erfahrene Softwarearchitekt:innen und Entwickler:innen und erklärt, wie Sie GraphQL-Web-APIs gegen unberechtigte Zugriffe und bösartige Angriffe schützen können. Ihr Trainer Michael Schäfer erläutert ausführlich die grundlegenden Sicherheitskonzepte wie HTTPS, Authentifizierung und Autorisierung mit Basic Auth und OAuth2/JWT, CORS und DDOS im Kontext von GraphQL-APIs und zeigt die Implementierung mit Spring Boot.
 
